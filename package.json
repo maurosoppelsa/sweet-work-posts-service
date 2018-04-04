@@ -1,0 +1,28 @@
+{
+  "name": "sweet-work-posts-server",
+  "version": "1.0.0",
+  "description": "NodeJS REST API using SQLite as a database.",
+  "author": "Mauro Soppelsa",
+  "dependencies": {
+    "bluebird": "*",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "ejs": "*",
+    "express": "*",
+    "sqlite": "*"
+  },
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  }
+}
